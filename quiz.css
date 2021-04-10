@@ -1,0 +1,73 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(wallpeper.jpg);
+    background-size: cover;
+    
+}
+.center{
+    text-align: center;
+}    
+.per{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 140px;
+    font-size: 25px;
+    
+}
+.box{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-top:20px;
+    color: rgb(24, 21, 21);
+    border-radius: 4px;
+    box-shadow: 0px  8px 18px;
+    color: rgba(0.1, 19,15, 20);
+    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.rowone{
+    display: flex;
+    flex-direction: row;
+}
+
+    
+input[type=button]{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 175, 243);
+    width:250px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#name{
+     font-size: 25px;
+     
+     border: solid;
+     border-width: 1px;
+     border-radius: 80px;
+    background-color:rgb(29, 175, 243);
+    color: white;
+    width: 50px;
+    height: 30px;
+    margin-left:10px;
+  
+}
+.col{
+    color: white;
+}
+.h{
+    color: rgb(59, 22, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
